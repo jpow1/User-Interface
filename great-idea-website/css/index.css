@@ -65,7 +65,7 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
-.header nav a{
+header div nav a{
 margin: 0 10px;
 padding: 20px;
   display: inline-block;
@@ -73,6 +73,7 @@ padding: 20px;
   text-decoration: none;
   margin-bottom: 20px;
   background-color:white;
+  box-sizing:border-box;
 
 
 }
@@ -80,13 +81,18 @@ padding: 20px;
 .logo {
 	display:inline-block;
 	height:50px;
-	width:100px;
+	width:150px;
 	vertical-align: top;
+	box-sizing:border-box;
 		
 	 
 }
 
-.header {
+.title {
+	display:inline-block;
+	text-align: center;
+	
+	
 
  
 }
@@ -94,13 +100,11 @@ padding: 20px;
 .footer {
 	border-top: 1px solid black;
 	padding: 30px;
+	margin:50px;
 	
 }
 
-.first-image {
-	display:inline-block;
-	width:48%;
-}
+
 
 .features {
 	display:inline-block;
@@ -150,7 +154,7 @@ padding-left: 50px;
 
 .first-image {
 	display:inline-block;
-	width:48%;
+	width:100%;
 	padding:20px;
 }
 
@@ -161,4 +165,31 @@ padding-left: 50px;
 .copy {
 	text-align:center;
 	padding:20px;
+}
+
+.nav {
+	display:inline-block;
+	width:78%;
+}
+
+.idea {
+	display:inline-block;
+	width:28%
+}
+
+.button {
+	text-decoration: none;
+	border: 1px solid black;
+	color:black;
+	padding:10px;
+}
+
+.code-image {
+	display:inline-block;
+	width:100%;
+	padding:20px;
+}
+
+hr {
+	margin:50px;
 }
